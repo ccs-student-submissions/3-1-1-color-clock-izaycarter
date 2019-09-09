@@ -1,3 +1,4 @@
+
 function time() {
   var date=new Date();
   var hours=date.getHours().toString(16);
@@ -16,9 +17,10 @@ function time() {
 
 function output(time)
 {
-var color= ' # ' + time;
-document.body.bgColor=color;
-document.querySelector('.time').textContent=color;
+    document.querySelector('.time').textContent=time;
+    let color= ' # ' + time;
+    document.body.bgColor=color;
+
 }
 
 

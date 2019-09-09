@@ -1,7 +1,13 @@
-.time{
-    font-size: 4rem;
+body{
+
+margin: 180px;
 }
 
-.time:hover{
-    
+
+.time{
+    font-size: 60px;
+    color: #FFF;
+    justify-content: center;
+    width: 100%;
+    display: flex;
 }
