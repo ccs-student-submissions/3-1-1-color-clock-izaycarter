@@ -1,4 +1,4 @@
-body{
+/* body{
 
 margin: 180px;
 }
@@ -10,4 +10,22 @@ margin: 180px;
     justify-content: center;
     width: 100%;
     display: flex;
+} */
+
+*{
+    box-sizing: border-box;
+}
+
+.color-clock{
+    background-color: blue;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    color:#FFF;
+}
+
+.color-clock_progress-bar{
+    width:100%;
+    border:
 }
