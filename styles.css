@@ -23,9 +23,20 @@ margin: 180px;
     text-align: center;
     position: relative;
     color:#FFF;
+    font-size: 60px;
 }
 
+.color-clock::after{
+    content: "";
+    position:absolute;
+    height: 1px;
+    color:#FFF;
+    width: 25%;
+    left: 25%;
+    text-align: center;
+}
 .color-clock_progress-bar{
-    width:100%;
-    border:
+    width: 100%;
+
+
 }
